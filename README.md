@@ -7,6 +7,6 @@ do
   partition=$(echo $output | awk '{ print $2 }' )
   if [ $usep -ge 90 ]; then
     echo "$(date) tarihindeki $(hostname) sunucusundaki disk dolulugu \"$partition ($usep%)\"" |
-     mail -s "Dikkat: Disk Dolulugu $usep%" sym@takasbank.com.tr
+     mail -s "Dikkat: Disk Dolulugu $usep%" serhancatana@gmail.com
   fi
 done
