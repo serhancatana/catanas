@@ -1,0 +1,2 @@
+# catanas
+Linux notlarım
